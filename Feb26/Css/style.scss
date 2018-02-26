@@ -1,0 +1,44 @@
+body{
+    background-color: red;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    border: 10px dashed green;
+    width: 100%;
+}
+
+img{
+    width: 150px;
+}
+
+ul{
+    background-color: beige;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column-reverse;
+}
+
+article{
+    width:75%;
+    // float: left;
+    background-color: tan;
+}
+
+aside{
+    width:25%;
+    // float: right;
+    background-color: seagreen;
+}
+section{
+    width:100%;
+    background-color: skyblue;
+}
