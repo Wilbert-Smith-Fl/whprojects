@@ -1,0 +1,23 @@
+body {
+  background-color: beige;
+}
+
+section {
+  background-color: purple;
+  padding: 10px;
+  margin: 50px;
+  height: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+}
+
+div {
+  flex: 1;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  background-color: violet;
+  margin: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

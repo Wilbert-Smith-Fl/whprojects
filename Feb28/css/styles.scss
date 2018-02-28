@@ -1,0 +1,24 @@
+body {
+    background-color: beige;
+}
+
+section {
+    background-color: purple;
+    padding: 10px;
+    margin: 50px;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    // justify-content: flex-end;
+    align-items: stretch;
+}
+div {
+    flex: 1;
+    // width: 300px;
+    // height: 65px;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    background-color: violet;
+    margin: 5px;
+}
