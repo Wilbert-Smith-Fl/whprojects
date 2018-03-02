@@ -1,0 +1,22 @@
+html {
+  background-color: aqua;
+}
+
+section {
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: space-between;
+  background-color: magenta;
+}
+
+div {
+  flex: 1;
+  width: 150px;
+  height: 150px;
+  background-color: lime;
+  margin: 5px;
+}
+/*# sourceMappingURL=flexbox.css.map */
