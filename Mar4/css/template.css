@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: darkturquoise;
+  padding: 5vw 2vw;
+  text-align: center;
+  color: whitesmoke;
+}
+
+section {
+  text-align: center;
+  padding: 5vw 2vw;
+}
+
+a.button {
+  background-color: rgba(20, 20, 20, 0.25);
+  color: whitesmoke;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: background-color 400ms;
+  transform: rotate(0deg);
+}
+
+a.button:hover {
+  background-color: rgba(20, 20, 20, 0.1);
+  transform: rotate(360deg);
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 100;
+  margin: 45px;
+}
+
+h2#features {
+  border-bottom: 3px double #141414;
+  display: inline-flex;
+  justify-content: center;
+}
+
+#features ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+
+#features ul li {
+  width: 25%;
+  padding: 40px;
+  border: 1px solid #141414;
+  margin-left: -1px;
+  margin-top: -1px;
+  text-align: center;
+}
+
+section#Form {
+  background-color: #d4d4d4;
+}
+
+#Form ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+#Form ul li {
+  width: 15%;
+  padding: 30px;
+}
+
+#Form ul li input {
+  padding: 15px 60px;
+  margin: auto;
+}
+
+header div {
+  width: 30%;
+  padding: 5vw;
+  margin: 0 auto;
+  border-width: 3px 1px;
+  border-style: double solid;
+  border-color: whitesmoke;
+}
+
+i {
+  font-size: 300%;
+  color: darkturquoise;
+}
+
+footer {
+  background-color: #d4d4d4;
+  text-align: center;
+}
+/*# sourceMappingURL=template.css.map */
