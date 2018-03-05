@@ -1,0 +1,83 @@
+$ignite: hsl(191, 58%, 42%);
+$classic: hsl(11, 96%, 42%);
+$black: hsl(230, 0, 7%);
+
+body{
+    margin: 0px;
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+header{
+    display: flex;
+    overflow: hidden;
+    background-color: $black;
+    position: relative;
+    height: 200px;
+}
+h1{
+    margin: 0;
+}
+.skew{
+    width: 50vw;
+    transform: skew(-40deg);
+    transform-origin: left bottom;
+}
+.ignite{
+    background-color: $ignite;
+  
+}
+.classic{
+    background-color: $classic;
+    background-image: url("../img/rainbowribbon.svg");
+    background-size: 100px;
+    background-repeat: repeat-y;
+}
+.text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.logo{
+    flex: none;
+    width: 200px;
+    height: 100%;
+    img{
+        width: 50%;
+    }
+}
+.marquee{
+    display: flex;
+    margin-left: -75px;
+    align-items: center;
+    h1{
+        text-shadow: 0px 0px 30px transparentize($color: #000000, $amount: .8);
+    }
+}
+
+@media print {
+    header{
+        height: 500px;
+        font-size: 100%;
+    }
+    .skew {
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .ignite {
+        background-color: red;
+    }
+    .classic{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width: 654px){
+    h1 {
+        font-size: 25%;
+    }
+}
