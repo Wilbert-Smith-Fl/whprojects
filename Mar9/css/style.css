@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+body {
+  margin: 0;
+  background-color: #e6e6e6;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #4d4d4d;
+  line-height: 1.25;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h2 {
+  font-weight: 400;
+  color: #262626;
+  padding-top: 0;
+  margin-top: 0;
+  border-top: solid 2px #666666;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figcaption {
+  text-transform: uppercase;
+  font-size: 80%;
+  padding: 2vw 4vw;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.btn {
+  padding: 2vw 4vw;
+  text-transform: uppercase;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-top: 0;
+  font-size: 80%;
+  font-weight: 400;
+  color: #1a1a1a;
+  transition: all 300ms;
+  transition-delay: 2s;
+}
+
+.btn:hover {
+  background-color: #bfbfbf;
+}
+
+#skillsets {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#skillsets li {
+  width: 48%;
+  background-color: #fafafa;
+  position: relative;
+  bottom: -50px;
+  animation-name: skills;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation: skills 1s forwards 1s;
+  opacity: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vw 8vw;
+}
+
+div * {
+  position: relative;
+  bottom: -50px;
+}
+
+div h2 {
+  animation: skills 1s forwards 1.1s;
+}
+
+div p {
+  animation: skills 1s forwards 1.2s;
+}
+
+div a {
+  animation: skills 1s forwards 1.3s;
+}
+
+h2 {
+  color: #262626;
+}
+
+p {
+  width: 50%;
+  text-align: left;
+}
+
+i {
+  font-size: 32px;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(50%) rotate(0deg);
+  animation: spin 1s infinite linear;
+}
+
+@keyframes skills {
+  from {
+    bottom: -50px;
+    opacity: 0;
+  }
+  to {
+    bottom: 50px;
+    opacity: 100;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: translate(50%) rotate(0deg);
+  }
+  to {
+    transform: translate(50%) rotate(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
