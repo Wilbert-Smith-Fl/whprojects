@@ -1,0 +1,42 @@
+//variables and preload code
+$black: hsl(0, 0, 8%);
+$white: hsl(0, 0, 92%);
+$actblack: hsl(0, 0, 20%);
+// global code
+
+html{
+    margin: 0;
+    background-color: $white;
+}
+body{
+    margin: 0;
+}
+header{
+    margin: 0;
+}
+nav{
+    margin: 0;
+    text-transform: uppercase;
+}
+//navigation bar style
+nav.nav ul{
+    margin: 0;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: $black;
+}
+nav.nav ul li{
+    background-color: $black;
+    padding: 10px;
+    a{
+        color: $white;
+        text-decoration: none;
+        display: inline-block;
+    }
+    a:hover, a:active{
+        background-color: $actblack;
+    }
+}
+

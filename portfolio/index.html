@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="hobby.html">HOBBY</a></li>
+                <li><a href="portfolio.html">WILBERT SMITH</a></li>
+                <li><a href="school.html">SCHOOL</a></li>
+                <li><a href="goals.html">GOALS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Hello this is me Wilbert. Have fun looking around here and seeing who I am and what I like.</h1>
+        <!-- slideshow example -->
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <a href="hobby.html"><img src="img/hobby.jpg" alt="a pair of headphones" style="display:block;"></a>
+            <div class="text">Hobby</div>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="portfolio.html"><img src="img/portfoliotemp.jpg" alt="a dude with a suit"></a>
+            <div class="text">Wilbert</div>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="school.html"><img src="img/schooltemp.jpg" alt="a college campus"></a>
+            <div class="text">School</div>
+        </div>
+
+        <div class="mySlides fade">
+            <a href="goals.html"><img src="img/goals-life.jpg" alt="a city overview"></a>
+            <div class="text">Goals</div>
+        </div>
+        <!-- previous and next buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!-- dots under slideshow -->
+        <div>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+    </main>
+    <script src="js/slide.js"></script>
+</body>
+</html>

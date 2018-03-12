@@ -1,0 +1,99 @@
+//index stylesheet
+
+//variable-preload
+$black: hsl(0, 0, 8%);
+$white: hsl(0, 0, 92%);
+$actblack: hsl(0, 0, 40%);
+//main global values
+main{
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+//main
+*{
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+}
+img{
+    vertical-align: middle;
+    width: 100%;
+}
+// the container of the show
+.mySlides{
+    display: none;
+}
+.slideshow-container{
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+// hidden images at start
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -26px;
+    padding: 20px;
+    color: $white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: .6s ease;
+    border-radius: 3px 0 0 3px;
+}
+//positioning buttons
+.next{
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+.prev{
+    left: 0;
+}
+//hover style
+.prev:hover, .next:hover{
+    background-color: transparentize($color: #000000, $amount: .9)
+}
+// caption text
+.text{
+    color: $white;
+    font-size: 18px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+//dots-bullet indicator
+.dot{
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin: 0 2px;
+    background-color: $actblack;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover{
+    background-color: $black;
+}
+// fading animation
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@-webkit-keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+}
