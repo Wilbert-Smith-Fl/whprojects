@@ -1,0 +1,64 @@
+body {
+  background-color: #b3b3b3;
+}
+
+main {
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 6px 0;
+  border-bottom: solid #141414 3px;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+div.split {
+  margin: 0;
+}
+
+div.split h3 {
+  font-style: italic;
+}
+
+div.split p {
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+}
+
+#sections {
+  width: 99%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#sections li {
+  width: 32%;
+  background-color: #d1d1d1;
+}
+
+#sections p {
+  margin: 0px auto;
+}
+
+#sections h2 {
+  display: inline;
+  border-bottom: solid 2px #141414;
+}
+/*# sourceMappingURL=hobby.css.map */

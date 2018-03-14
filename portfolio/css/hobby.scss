@@ -1,0 +1,62 @@
+//index stylesheet
+
+//variable-preload
+$black: hsl(0, 0, 8%);
+$white: hsl(0, 0, 92%);
+$actblack: hsl(0, 0, 40%);
+$gray: hsl(0, 0, 70%);
+$lightgray: hsl(0, 0, 82%);
+//main global values
+body{
+    background-color: $gray;
+}
+main{
+    padding: 0;
+}
+section{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    margin: 6px 0;
+    border-bottom: solid $black 3px;
+}
+h2{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+div.split{
+    margin: 0;
+    h3{
+        font-style: italic;
+    }
+    p{
+        text-align: center;
+        margin: auto;
+        padding: 2%;
+    }
+}
+//sectioned areas of text
+#sections{
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    li{
+    width: 32%;
+    background-color: $lightgray;
+    // position: relative;
+    }
+    p{
+        margin: 0px auto;
+    }
+    h2{
+        display: inline;
+        border-bottom: solid 2px $black;
+    }
+}

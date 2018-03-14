@@ -11,9 +11,25 @@ header {
   margin: 0;
 }
 
+main {
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
 nav {
   margin: 0;
   text-transform: uppercase;
+}
+
+main {
+  background-color: #b3b3b3;
 }
 
 nav.nav ul {
@@ -38,5 +54,11 @@ nav.nav ul li a {
 
 nav.nav ul li a:hover, nav.nav ul li a:active {
   background-color: #333333;
+}
+
+nav.nav ul li p {
+  display: inline;
+  text-decoration: none;
+  color: #ebebeb;
 }
 /*# sourceMappingURL=style.css.map */
