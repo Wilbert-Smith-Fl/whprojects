@@ -10,7 +10,7 @@ main{
 }
 h1{
     margin: 0;
-    padding-bottom: 8px;
+    padding: 2px 25% 8px 25%;
 }
 p#text{
     padding: 1vw;
@@ -30,6 +30,9 @@ img{
     vertical-align: middle;
     width: 100%;
 }
+img:hover{
+    // background-image: ;
+}
 // the container of the show
 .mySlides{
     display: none;
@@ -38,7 +41,7 @@ img{
     max-width: 1040px;
     margin: auto;
     position: relative;
-    border: solid 1px $black;
+    border: solid 10px $white;
 }
 // hidden images at start
 .prev, .next{
@@ -64,17 +67,20 @@ img{
 }
 //hover style
 .prev:hover, .next:hover{
-    background-color: transparentize($color: #000000, $amount: .9)
+    background-color: transparentize($color: $black, $amount: .9)
 }
 // caption text
 .text{
     color: $white;
-    font-size: 18px;
+    font-size: 48px;
     padding: 10px 20px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    // position: absolute;
+    // top: 0;
+    // width: 100%;
     text-align: center;
+    background-color: $black;
 }
 //dots-bullet indicator
 .dot{
@@ -96,6 +102,10 @@ img{
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+}
+div a:hover{
+    opacity: .5;
+    background-color: $white;
 }
 
 @keyframes fade{

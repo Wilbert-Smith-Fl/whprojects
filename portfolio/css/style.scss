@@ -33,7 +33,7 @@ main{
 }
 nav.nav ul{
     margin: 0;
-    height: 40px;
+    // height: 45px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -41,7 +41,7 @@ nav.nav ul{
 }
 nav.nav ul li{
     background-color: $black;
-    padding: 10px;
+    padding: 10px 0;
     a{
         color: $white;
         text-decoration: none;
