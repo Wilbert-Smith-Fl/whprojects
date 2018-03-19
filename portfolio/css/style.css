@@ -28,7 +28,7 @@ nav {
   text-transform: uppercase;
 }
 
-main {
+.day {
   background-color: #b3b3b3;
 }
 
@@ -58,6 +58,18 @@ nav.nav ul li a:hover, nav.nav ul li a:active {
 nav.nav ul li p {
   display: inline;
   text-decoration: none;
+  color: #ebebeb;
+}
+
+.Darkmode {
+  background-color: darkblue;
+}
+
+.daytext {
+  color: #141414;
+}
+
+.Darkmodetext {
   color: #ebebeb;
 }
 /*# sourceMappingURL=style.css.map */

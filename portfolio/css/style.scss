@@ -28,7 +28,10 @@ nav{
     margin: 0;
     text-transform: uppercase;
 }
-main{
+// main{
+//     background-color: $gray;
+// }
+.day{
     background-color: $gray;
 }
 nav.nav ul{
@@ -55,6 +58,15 @@ nav.nav ul li{
         text-decoration: none;
         color: $white;
     }
+}
+.Darkmode{
+    background-color: darkblue;
+}
+.daytext{
+    color: $black;
+}
+.Darkmodetext{
+    color: $white;
 }
 // footer#end ul{
 //     margin: 0;
