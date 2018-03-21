@@ -1,0 +1,82 @@
+@import url("https://use.fontawesome.com/releases/v5.0.8/css/solid.css");
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  padding: 10px;
+  background-color: #141414;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 5px 10px;
+  border: 1px solid #121212;
+  border-radius: 4px;
+}
+
+button.hover {
+  background-color: #bababa;
+  cursor: pointer;
+}
+
+#navBtn {
+  position: relative;
+  z-index: 10000;
+  transition: right 250ms;
+  right: 0;
+}
+
+#navBtn.active {
+  right: 250px;
+  transform: translate(calc(100% + 20px));
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  z-index: 9999;
+  background-color: #42b869;
+  width: 250px;
+  height: 100vh;
+  transition: right 250px;
+}
+
+nav.viewNav {
+  right: 0;
+  transition: 250ms;
+}
+
+nav ul {
+  padding: 65px 20px 20px;
+}
+
+nav li:nth-child(odd) {
+  background-color: #3ba55f;
+}
+
+nav li:hover a {
+  text-indent: 5px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=sidenav.css.map */
