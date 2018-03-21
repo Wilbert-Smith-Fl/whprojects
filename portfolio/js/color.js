@@ -6,5 +6,5 @@
 function switchColor(){
     // document.getElementById('switchColor').classList.add('Darkmode');
     document.getElementById("switchColor").classList.toggle("Darkmode");
-    document.getElementById("switchColor").classList.toggle("Darkmodetext");
+    document.getElementById("switchColorText").classList.toggle("Darkmodetext");
 }
