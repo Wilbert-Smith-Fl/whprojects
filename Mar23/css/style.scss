@@ -1,0 +1,72 @@
+// import
+@import url("https://use.fontawesome.com/releases/v5.0.8/css/solid.css");
+//var
+$black: hsl(0, 0, 8%);
+$lightgray: hsl(0, 15%, 90%);
+$offwhite: hsl(0, 25%, 95%);
+// styles
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+main{
+    width: 90%;
+    position: relative;
+    left: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav{
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: $offwhite;
+    z-index: 50;
+    ul{
+        li{
+            display: inline-block;
+            padding: 5px 10px;
+            a{
+                text-decoration: none;
+                &:hover{
+                    background-color: $lightgray;
+                }
+            }
+        } 
+    }
+}
+.right{
+    position: fixed;
+    right: 0;
+    width: 125px;
+    height: 100%;
+    background-color: $offwhite;
+    z-index: 50;
+}
+#navBtn{
+    position: fixed;
+    z-index: 10000;
+    right: 25px;
+}
+button#styleName{
+    display: none;
+}
+button#styleName.show{
+    display: block;
+}
+p a{
+    color: blue;
+}
+p a.colorChange{
+    color: gold;
+}
