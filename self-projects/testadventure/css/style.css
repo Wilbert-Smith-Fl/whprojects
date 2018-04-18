@@ -34,4 +34,27 @@ img.CurrentPicture {
 img {
   display: none;
 }
+
+button#choice1 {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: 740px;
+}
+
+button.none#choice1 {
+  display: none;
+}
+
+button#choice2 {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  top: 740px;
+  right: 0px;
+}
+
+button.none#choice2 {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
