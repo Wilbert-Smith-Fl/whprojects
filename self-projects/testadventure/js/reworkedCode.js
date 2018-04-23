@@ -22,6 +22,8 @@ var gameText = {
     Inn: ["<h1>Its been a long day traveling to town.</h1>","<h1>The best thing to do right now is to head to bed.</h1>", "<h1> However there seems to be some shady people in the alley way</h1>"],
     insideInn: ["<h1>You walk into the Inn and you hear the bard playing some Tunes</h1>","<h1>They remind you of home and of a better time</h1>","<h1>You walk up to the bar and ask a bar maid...</h1>"],
     BackAlley: ["<h1>You end up in the Alley with three strangers looking to you.</h1>", "<h1>Stranger 1: Hey you there! You trying to get into some trouble?<h1>","<h1>Stranger 3: Pffft, yeah like this guy would get into trouble leave him out of this</h1>","<h1>Stranger 2: if he wants to be here... he can be here... Let him decide.</h1>"],
+    coopThief: ["<h1></h1>"],
+    threatningThief: ["<h1></h1>"],
 
 }
 // console.log(gameText);
@@ -106,10 +108,17 @@ function alleyText(){
         textNum++;
         console.log(gameText.BackAlley.length);
     }
+    else if(textNum === 3){
+        choice1.innerHTML = "Listen to the strangers";
+        choice2.innerHTML = "Attempt to leave";        
+        choice1.classList.toggle("none");
+        choice2.classList.toggle("none");
+        choice1.addEventListener("click", robbingText);
+        choice2.addEventListener("click", threatningText);
+    }
     else{
         textNum = 0;
         textBox.innerHTML = "";
-        sceneNum++;
     }
 }
 
