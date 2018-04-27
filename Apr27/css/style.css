@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: darkgray;
+  padding: 10px;
+}
+
+header input {
+  border: 1px solid grey;
+  padding: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+main {
+  user-select: none;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: none;
+}
+
+main li {
+  width: 33%;
+  margin: 10px;
+}
+
+main img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

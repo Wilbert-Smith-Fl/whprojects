@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: darkgrey;
+  padding: 0;
+}
+
+header input {
+  border: 1px solid darkgray;
+  padding: 5px;
+  border-radius: 4px;
+  font-style: inherit;
+}
+/*# sourceMappingURL=style.css.map */
